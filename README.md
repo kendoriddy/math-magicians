@@ -1,64 +1,107 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math-Magicians
 
-> "Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote.
+"Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quote.
 
-Our goal here is to Build a single page web application for mathematics weebs using the React library.
+Our goal here is to Build a single page web application for mathematics weebs using the React library
 
+## Features implemented so far are
+
+-Create React App
+
+- Set up Linters
+- Project Setup with React Installations
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Linters
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+## Live Demo
 
 ### Prerequisites
 
-### Setup
+The basic requirements for building the executable are:
 
-### Install
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- Have a good knowledge on how to parse UI designs
+- Have VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
+- Install node package. [Link to download node](https://nodejs.org/en/download/)
+- Have git installed.[Link to download git](https://git-scm.com/downloads)
+- Create a github repository.
 
-### Usage
+## Getting Started
 
-### Run tests
+To get a local copy up and running follow these simple example steps.
 
-### Deployment
+### Cloning the project
 
+```
+git clone  https://github.com/kendoriddy/math-magicians.git <Your-Build-Directory>
 
+```
 
-## Authors
+```
+cd <Your-Build-Directory> 
 
-👤 **Author1**
+```
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Getting packages and dependencies
 
-👤 **Author2**
+To get all package modules required to build the project run:
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+```
+npm install
+```
+
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
+
+## Building
+
+To build the project run:
+
+```
+npm run build
+```
+
+after you run this successfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
+
+## Running
+
+To run the program on a browser through a server run this command in your cli
+
+```
+npm start
+```
+
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
+
+## Run tests
+
+For tracking linters errors locally, you need to follow these steps:
+
+- For tracking linter errors in CSS file run:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+- For tracking linter errors in Javascript file run:
+
+```
+npx eslint .
+```
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
+
+👤 **Kehinde Ridwan Onifade**
+
+- GitHub: [@githubhandle](https://github.com/kendoriddy)
+
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kehindeonifade)
 
 ## Show your support
 
@@ -66,12 +109,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
