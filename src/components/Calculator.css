@@ -1,0 +1,84 @@
+:root {
+  --primary: rgb(153, 152, 152);
+  --digit: #f5f5f5;
+  --operator: rgb(255, 144, 104);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overall {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: var(--primary);
+}
+
+.result-span {
+  background-color: var(--primary);
+  text-align: right;
+  padding: 1.5rem;
+  color: var(--digit);
+}
+
+.grid-one,
+.grid-two,
+.grid-three,
+.grid-four,
+.grid-five {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  appearance: none;
+  margin-right: 1rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-one button,
+.grid-two button,
+.grid-three button,
+.grid-four button {
+  margin: 1px 1px 0 0;
+  padding: 0.5rem;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.grid-five button {
+  margin: 1px 1px 1px 0;
+  padding: 0.5rem;
+}
+
+.operator,
+.number,
+.empty {
+  border-width: 0;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.empty {
+  background-color: var(--digit);
+}
+
+.number {
+  background-color: var(--digit);
+}
+
+.operator {
+  background-color: var(--operator);
+  font-size: 30px;
+}
