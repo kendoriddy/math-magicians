@@ -97,7 +97,7 @@ npx eslint .
 
 Feel free to check the [issues page](../../issues/).
 
-👤 **Ojesanmi Elizabeth Oyin**
+👤 **Kehinde Ridwan Onifade**
 
 - GitHub: [@githubhandle](https://github.com/kendoriddy)
 
