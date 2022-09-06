@@ -5,11 +5,11 @@ import "./Calculator.css";
 class Calculator extends Component {
   render() {
     return (
-      <div className="global">
-        <div className="answer-span">
+      <div className="overall">
+        <div className="result-span">
           <span>0</span>
         </div>
-        <div className="box-one">
+        <div className="grid-one">
           <button type="button" className="btn delete number">
             AC
           </button>
@@ -23,7 +23,7 @@ class Calculator extends Component {
             ÷
           </button>
         </div>
-        <div className="box-two">
+        <div className="grid-two">
           <button type="button" className="btn number">
             7
           </button>
@@ -37,7 +37,7 @@ class Calculator extends Component {
             *
           </button>
         </div>
-        <div className="box-three">
+        <div className="grid-three">
           <button type="button" className="btn number">
             4
           </button>
@@ -51,7 +51,7 @@ class Calculator extends Component {
             -
           </button>
         </div>
-        <div className="box-four">
+        <div className="grid-four">
           <button type="button" className="btn number">
             1
           </button>
@@ -65,7 +65,7 @@ class Calculator extends Component {
             +
           </button>
         </div>
-        <div className="box-five">
+        <div className="grid-five">
           <button type="button" className="btn number zero">
             0
           </button>
