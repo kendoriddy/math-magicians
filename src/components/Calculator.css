@@ -48,7 +48,7 @@ button {
 .grid-two button,
 .grid-three button,
 .grid-four button {
-  margin: 1px 1px 1px 0;
+  margin: 1px 1px 0 0;
   padding: 0.5rem;
 }
 
