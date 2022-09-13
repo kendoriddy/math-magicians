@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Quote from './components/Quote';
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/calculate" element={<Calculator />} />
+      <Route path="/quotes" element={<Quote />} />
       </Routes>
     </BrowserRouter>
       </div>

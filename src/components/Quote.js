@@ -12,6 +12,10 @@ const Quote = () => {
         setQuotes(data);
       });
   };
+
+  useEffect(() => {
+      getQuotes();
+  }, [])
   console.log(quotes);
   return <div>Quote</div>;
 };
