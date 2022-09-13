@@ -1,23 +1,23 @@
-import { NavLink } from 'react-router-dom';
-import './Navbar.css';
+import { NavLink } from "react-router-dom";
+import "../css/Navbar.css";
 
 const Navbar = () => {
   const links = [
     {
       id: 1,
-      path: '/',
-      text: 'Home',
+      path: "/",
+      text: "Home",
     },
     {
       id: 2,
-      path: '/calculate',
-      text: 'Calculator',
+      path: "/calculate",
+      text: "Calculator",
     },
 
     {
       id: 3,
-      path: '/quotes',
-      text: 'Quotes',
+      path: "/quotes",
+      text: "Quotes",
     },
   ];
 
@@ -30,8 +30,8 @@ const Navbar = () => {
             <NavLink
               to={link.path}
               style={({ isActive }) => ({
-                color: isActive ? 'orange' : 'white',
-                textDecoration: isActive ? 'underline' : null,
+                color: isActive ? "orange" : "white",
+                textDecoration: isActive ? "underline" : null,
               })}
             >
               {link.text}
