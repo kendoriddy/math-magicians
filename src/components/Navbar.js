@@ -30,7 +30,7 @@ const Navbar = () => {
             <NavLink
               to={link.path}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "white",
+                color: isActive ? "#fe9167" : "white",
                 textDecoration: isActive ? "underline" : null,
               })}
             >
