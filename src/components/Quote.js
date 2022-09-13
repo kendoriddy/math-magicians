@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import '../css/Quote.css';
 
 const Quote = () => {
   const [quotes, setQuotes] = useState("");
@@ -22,23 +23,16 @@ const Quote = () => {
   }, [quotes]);
   return (
     <>
-      <div className="quote">
-        <p ref={textRef}>{quotes.quote}</p>
-        <p className="author">{quotes.author}</p>
-        <div className="buttons">
-          <button className="buttons quote-btn" onClick={getQuotes}>
-            Get Quotes
-          </button>
-          <a
-            href={`https://twitter.com/intent/tweet?text=${quotes.quote}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="buttons"
-          >
-            Tweet
-          </a>
-        </div>{" "}
-      </div>
+      <div className='quote-container'>
+      <p ref={textRef}>{quotes.quote}</p>
+      <p className='author'>{quotes.author}</p>
+    <div className="buttons-div">
+          <button className='buttons quote-btn' onClick={getQuotes}>Get Quotes</button>
+          <a href={`https://twitter.com/intent/tweet?text=${quotes.quote}`} target='_blank'
+            rel='noopener noreferrer'
+          className='buttons'>Tweet</a>
+        </div>
+        </div>
     </>
   );
 };
