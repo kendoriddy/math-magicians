@@ -1,0 +1,12 @@
+.home-overall h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #595252;
+  padding: 1.5rem 3rem;
+}
+
+.home-overall p {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  color: #292626;
+}
