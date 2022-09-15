@@ -2,10 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { Router } from 'react-router-dom';
 
-import Home from './Home';
-import Quote from './Quote';
-import Navbar from './Navbar';
-import Calculator from './Calculator';
+import Home from '../components/Home';
+import Quote from '../components/Quote';
+import Navbar from '../components/Navbar';
+import Calculator from '../components/Calculator';
 
 describe('Component test', () => {
   it('Should render the home component', () => {
