@@ -19,7 +19,7 @@ const Quote = () => {
   }, []);
 
   useEffect(() => {
-    textRef.current.style.color = colors[Math.floor(Math.random() * colors.length)];
+    // textRef.current.style.color = colors[Math.floor(Math.random() * colors.length)];
   }, [quotes]);
   return (
     <>
