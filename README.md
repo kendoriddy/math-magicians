@@ -19,6 +19,7 @@ Our goal here is to Build a single page web application for mathematics weebs us
 - Linters
 
 ## Live Demo
+[Live demo](https://mathe-magic.netlify.app/)
 
 ### Prerequisites
 
