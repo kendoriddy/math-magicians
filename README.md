@@ -6,12 +6,9 @@
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library
 
-## Features implemented so far are
-
--Create React App
-
-- Set up Linters
-- Project Setup with React Installations
+![](./src/assets/images/math1.png)
+![](./src/assets/images/math2.png)
+![](./src/assets/images/math3.png)
 
 ## Built With
 
