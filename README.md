@@ -10,13 +10,6 @@ Our goal here is to Build a single page web application for mathematics weebs us
 ![](./src/assets/images/math2.png)
 ![](./src/assets/images/math3.png)
 
-## Features implemented so far are
-
--Create React App
-
-- Set up Linters
-- Project Setup with React Installations
-
 ## Built With
 
 - React
