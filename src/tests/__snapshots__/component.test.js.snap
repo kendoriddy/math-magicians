@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component test Should render the calculator component 1`] = `
+<div
+  className="overall"
+>
+  <div
+    className="result-span"
+    onChange={[Function]}
+  >
+    0
+  </div>
+  <div
+    className="grid-one"
+  >
+    <button
+      className="btn delete number"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="btn number number"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="btn clear number"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="btn  equal-to operator"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </div>
+  <div
+    className="grid-two"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+  </div>
+  <div
+    className="grid-three"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="btn number  operator"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+  </div>
+  <div
+    className="grid-four"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="grid-five"
+  >
+    <button
+      className="btn number zero"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="btn number dot"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Component test Should render the home component 1`] = `
+<div
+  className="home-overall"
+>
+  <h1>
+    Welcome! You are celebrated
+  </h1>
+  <p>
+    Mathematics is the science and study of quality, structure, space, and change. Mathematicians seek out patterns, formulate new conjectures, and establish truth by rigorous deduction from appropriately chosen axioms and definitions.
+  </p>
+  <p>
+    Since the beginning of recorded history, mathematical discovery has been at the forefront of every civilized society, and math has been used by even the most primitive and earliest cultures. The need for math arose because of the increasingly complex demands from societies around the world, which required more advanced mathematical solutions.
+  </p>
+</div>
+`;
+
+exports[`Component test Should render the quote component 1`] = `
+<div
+  className="quote-container"
+>
+  <p />
+  <p
+    className="author"
+  />
+  <div
+    className="buttons-div"
+  >
+    <button
+      className="buttons quote-btn"
+      onClick={[Function]}
+    >
+      Get Quotes
+    </button>
+    <a
+      className="buttons"
+      href="https://twitter.com/intent/tweet?text=undefined"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Tweet
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Tests for Calculator component Renders the Calculator component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="overall"
+      >
+        <div
+          class="result-span"
+        >
+          0
+        </div>
+        <div
+          class="grid-one"
+        >
+          <button
+            class="btn delete number"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="btn number number"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="btn clear number"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="btn  equal-to operator"
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          class="grid-two"
+        >
+          <button
+            class="btn number"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="btn number"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="btn number"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="btn number operator"
+            type="button"
+          >
+            x
+          </button>
+        </div>
+        <div
+          class="grid-three"
+        >
+          <button
+            class="btn number"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="btn number"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="btn number"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="btn number  operator"
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div
+          class="grid-four"
+        >
+          <button
+            class="btn number"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="btn number"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="btn number"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="btn number operator"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="grid-five"
+        >
+          <button
+            class="btn number zero"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="btn number dot"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="btn number operator"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="overall"
+    >
+      <div
+        class="result-span"
+      >
+        0
+      </div>
+      <div
+        class="grid-one"
+      >
+        <button
+          class="btn delete number"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="btn number number"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="btn clear number"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="btn  equal-to operator"
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        class="grid-two"
+      >
+        <button
+          class="btn number"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="btn number"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="btn number"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="btn number operator"
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div
+        class="grid-three"
+      >
+        <button
+          class="btn number"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="btn number"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="btn number"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="btn number  operator"
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        class="grid-four"
+      >
+        <button
+          class="btn number"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="btn number"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="btn number"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="btn number operator"
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        class="grid-five"
+      >
+        <button
+          class="btn number zero"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="btn number dot"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="btn number operator"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

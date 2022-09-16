@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component test Should render the calculator component 1`] = `
+<div
+  className="overall"
+>
+  <div
+    className="result-span"
+    onChange={[Function]}
+  >
+    0
+  </div>
+  <div
+    className="grid-one"
+  >
+    <button
+      className="btn delete number"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="btn number number"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="btn clear number"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="btn  equal-to operator"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </div>
+  <div
+    className="grid-two"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+  </div>
+  <div
+    className="grid-three"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="btn number  operator"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+  </div>
+  <div
+    className="grid-four"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="grid-five"
+  >
+    <button
+      className="btn number zero"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="btn number dot"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Component test Should render the home component 1`] = `
+<div
+  className="home-overall"
+>
+  <h1>
+    Welcome! You are celebrated
+  </h1>
+  <p>
+    Mathematics is the science and study of quality, structure, space, and change. Mathematicians seek out patterns, formulate new conjectures, and establish truth by rigorous deduction from appropriately chosen axioms and definitions.
+  </p>
+  <p>
+    Since the beginning of recorded history, mathematical discovery has been at the forefront of every civilized society, and math has been used by even the most primitive and earliest cultures. The need for math arose because of the increasingly complex demands from societies around the world, which required more advanced mathematical solutions.
+  </p>
+</div>
+`;
+
+exports[`Component test Should render the quote component 1`] = `
+<div
+  className="quote-container"
+>
+  <p />
+  <p
+    className="author"
+  />
+  <div
+    className="buttons-div"
+  >
+    <button
+      className="buttons quote-btn"
+      onClick={[Function]}
+    >
+      Get Quotes
+    </button>
+    <a
+      className="buttons"
+      href="https://twitter.com/intent/tweet?text=undefined"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Tweet
+    </a>
+  </div>
+</div>
+`;
