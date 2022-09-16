@@ -6,6 +6,10 @@
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library
 
+![](./src/assets/images/math1.png)
+![](./src/assets/images/math2.png)
+![](./src/assets/images/math3.png)
+
 ## Features implemented so far are
 
 -Create React App
