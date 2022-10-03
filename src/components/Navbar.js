@@ -32,7 +32,7 @@ const Navbar = () => {
               style={({ isActive }) => ({
                 color: isActive ? "#fe9167" : "white",
                 textDecoration: isActive ? "underline" : null,
-              })}
+              })} end
             >
               {link.text}
             </NavLink>

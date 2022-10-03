@@ -13,7 +13,7 @@ class App extends React.Component {
         <BrowserRouter>
       <Navbar />
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" exact element={<Home />} />
       <Route path="/calculate" element={<Calculator />} />
       <Route path="/quotes" element={<Quote />} />
       </Routes>
