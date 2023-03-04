@@ -19,7 +19,25 @@ const RomanConverter = () => {
     CM: 900,
     M: 1000,
   };
-  console.log(romanNumerals);
+
+  const convertRomanToDecimal = () => {
+    let decimalValue = 0;
+
+    for (let i = 0; i < romanNumeral.length; i++) {
+      const currentChar = romanNumeral[i];
+      const nextChar = romanNumeral[i + 1];
+      const currentValue = romanNumerals[currentChar];
+      const nextValue = romanNumerals[nextChar];
+
+      if (nextValue && currentValue < nextValue) {
+        decimalValue -= currentValue;
+      } else {
+        decimalValue += currentValue;
+      }
+    }
+
+    setDecimalValue(decimalValue);
+  };
   return <div>RomanConverter</div>;
 };
 
