@@ -39,11 +39,11 @@
 }
 
 .error {
-    color: red !important;
-    font-size: 16px;
-    font-weight: bold;
+  color: red !important;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .error span {
-    color: rgb(98, 14, 14);
+  color: rgb(98, 14, 14);
 }
