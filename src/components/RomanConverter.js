@@ -4,6 +4,7 @@ import "../css/RomanConverter.css";
 const RomanConverter = () => {
   const [romanNumeral, setRomanNumeral] = useState("");
   const [decimalValue, setDecimalValue] = useState(null);
+  const [invalidRomanNumeral, setInvalidRomanNumeral] = useState("");
 
   const romanNumerals = {
     I: 1,
@@ -27,8 +28,8 @@ const RomanConverter = () => {
     // Check if the input contains any invalid characters
     const invalidChars = romanNumeral.replace(/[IVXLCDM]/g, "");
     if (invalidChars.length > 0) {
+      setInvalidRomanNumeral(invalidChars)
       setDecimalValue(null);
-      alert(`Invalid Roman numeral: ${invalidChars}`);
       return;
     }
 
@@ -68,6 +69,10 @@ const RomanConverter = () => {
           The decimal value of {romanNumeral} is {decimalValue}
         </p>
       )}
+      {invalidRomanNumeral !== "" && <p className="error">
+      Invalid Roman numeral: <span>{invalidRomanNumeral}</span>.
+      <br />
+        Please enter valid Roman numerals only</p>}
     </div>
   );
 };
