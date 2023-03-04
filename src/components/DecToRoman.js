@@ -46,7 +46,7 @@ function DecimalToRoman() {
   };
 
   return (
-    <div>
+    <div className="roman-decimal">
       <h1>Decimal to Roman Numeral Converter</h1>
       <label>Enter a decimal value:</label>
       <input
@@ -57,7 +57,7 @@ function DecimalToRoman() {
       />
       <br />
       <br />
-      <button onClick={convertDecimalToRoman}>Convert</button>
+      <button className="roman-button" onClick={convertDecimalToRoman}>Convert</button>
       <br />
       {romanNumeral && <p>The Roman numeral equivalent is {romanNumeral}</p>}
     </div>
