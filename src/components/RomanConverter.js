@@ -24,6 +24,14 @@ const RomanConverter = () => {
   const convertRomanToDecimal = () => {
     let decimalValue = 0;
 
+    // Check if the input contains any invalid characters
+    const invalidChars = romanNumeral.replace(/[IVXLCDM]/g, "");
+    if (invalidChars.length > 0) {
+      setDecimalValue(null);
+      alert(`Invalid Roman numeral: ${invalidChars}`);
+      return;
+    }
+
     for (let i = 0; i < romanNumeral.length; i++) {
       const currentChar = romanNumeral[i];
       const nextChar = romanNumeral[i + 1];
