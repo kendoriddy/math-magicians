@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../css/RomanConverter.css";
 
 const RomanConverter = () => {
   const [romanNumeral, setRomanNumeral] = useState("");
@@ -39,7 +40,7 @@ const RomanConverter = () => {
     setDecimalValue(decimalValue);
   };
   return (
-    <div>
+    <div className="roman-decimal">
       <h1>Roman Numeral to Decimal Converter</h1>
       <label>Enter a Roman numeral:</label>
       <input
@@ -50,7 +51,9 @@ const RomanConverter = () => {
       />
       <br />
       <br />
-      <button onClick={convertRomanToDecimal}>Convert</button>
+      <button className="roman-button" onClick={convertRomanToDecimal}>
+        Convert
+      </button>
       <br />
       {decimalValue !== null && (
         <p>
