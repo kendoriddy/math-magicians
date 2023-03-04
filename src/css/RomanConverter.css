@@ -38,3 +38,12 @@
   color: #292626;
 }
 
+.error {
+    color: red !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.error span {
+    color: rgb(98, 14, 14);
+}
