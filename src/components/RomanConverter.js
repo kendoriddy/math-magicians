@@ -38,7 +38,27 @@ const RomanConverter = () => {
 
     setDecimalValue(decimalValue);
   };
-  return <div>RomanConverter</div>;
+  return (
+    <div>
+      <h1>Roman Numeral to Decimal Converter</h1>
+      <label>Enter a Roman numeral:</label>
+      <input
+        type="text"
+        value={romanNumeral}
+        onChange={(e) => setRomanNumeral(e.target.value.toUpperCase())}
+        placeholder="e.g. IV"
+      />
+      <br />
+      <br />
+      <button onClick={convertRomanToDecimal}>Convert</button>
+      <br />
+      {decimalValue !== null && (
+        <p>
+          The decimal value of {romanNumeral} is {decimalValue}
+        </p>
+      )}
+    </div>
+  );
 };
 
 export default RomanConverter;
