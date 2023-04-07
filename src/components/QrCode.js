@@ -1,7 +1,6 @@
-// src/components/QrCode.js
-
 import { useState } from "react";
 import { QRCodeCanvas } from "qrcode.react";
+import "../css/QrCode.css";
 
 const QrCode = () => {
   const [url, setUrl] = useState("");
