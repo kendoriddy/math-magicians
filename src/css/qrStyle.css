@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,28 +9,34 @@
 :root {
   --font-color: 230 35% 7%;
 }
+
 body {
   color: hsl(var(--font-color));
 }
+
 img {
   max-width: 100%;
   display: block;
 }
+
 .section {
   padding: 2em 0;
   display: flex;
   min-height: 100vh;
   align-items: center;
 }
+
 .container {
   margin-inline: auto;
   max-width: 75rem;
   width: 85%;
 }
+
 .input__group {
   display: flex;
   margin-top: 2em;
 }
+
 input {
   width: 100%;
   padding: 1em 0.75em;
@@ -39,6 +45,7 @@ input {
   margin-bottom: 2em;
   margin-top: 0.75em;
 }
+
 button {
   border: unset;
   background: hsl(231, 77%, 90%);
@@ -48,22 +55,24 @@ button {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 @media screen and (min-width: 768px) {
   .section {
     padding: 0;
   }
-  input {
-    margin: 0;
-  }
+
   .qrcode__container {
     padding: 50px;
     display: flex;
     align-items: center;
   }
+
   .input__group {
     margin-left: 3em;
   }
+
   input {
+    margin: 0;
     margin-bottom: 2em;
     margin-top: 0.75em;
     font-size: 1rem;
