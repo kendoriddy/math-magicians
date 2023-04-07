@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Quote from './components/Quote';
 import RomanConverter from './components/RomanConverter';
+import QrCode from './components/QrCode';
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
       <Route path="/calculate" element={<Calculator />} />
       <Route path="/quotes" element={<Quote />} />
       <Route path="/roman" element={<RomanConverter />} />
+      <Route path="/generate-qr" element={<QrCode />} />
       </Routes>
     </BrowserRouter>
       </div>
